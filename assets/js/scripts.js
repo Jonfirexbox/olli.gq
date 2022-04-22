@@ -241,7 +241,7 @@
     function waitForCommand (elem) {
         return new Promise((resolve) => {
             let command = '';
-            let allowed = 'abcdefghijklmnopqrstuvwxyz1234567890_-=+!@#/ ';
+            let allowed = 'abcdefghijklmnopqrstuvwxyz1234567890_-=+!@#/. ';
             window.addEventListener('keydown', handleEvent);
             
             function handleEvent (e) {

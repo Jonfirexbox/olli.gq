@@ -136,8 +136,8 @@
                     switch (args[1]) {
                         case 'scripts.js':
                         case 'script.js': {
-                            window.open('https://github.com/knokbak/olli.gq/blob/main/assets/js/script.js');
-                            return 'Opening https://github.com/knokbak/olli.gq/blob/main/assets/js/script.js...';
+                            window.open('https://github.com/knokbak/olli.gq/blob/main/assets/js/scripts.js');
+                            return 'Opening https://github.com/knokbak/olli.gq/blob/main/assets/js/scripts.js...';
                         }
                         case 'styles.css':
                         case 'style.css': {

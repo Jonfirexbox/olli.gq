@@ -136,21 +136,21 @@
                     switch (args[1]) {
                         case 'scripts.js':
                         case 'script.js': {
-                            window.open('https://olli.gq/assets/js/script.js');
-                            return 'Opening https://olli.gq/assets/js/script.js...';
+                            window.open('https://github.com/knokbak/olli.gq/blob/main/assets/js/script.js');
+                            return 'Opening https://github.com/knokbak/olli.gq/blob/main/assets/js/script.js...';
                         }
                         case 'styles.css':
                         case 'style.css': {
-                            window.open('https://olli.gq/assets/css/styles.css');
-                            return 'https://olli.gq/assets/css/styles.css...';
+                            window.open('https://github.com/knokbak/olli.gq/blob/main/assets/css/styles.css');
+                            return 'Opening https://github.com/knokbak/olli.gq/blob/main/assets/css/styles.css...';
                         }
                         case 'index.html': {
-                            window.open('https://olli.gq/index.html');
-                            return 'https://olli.gq/index.html';
+                            window.open('https://github.com/knokbak/olli.gq/blob/main/index.html');
+                            return 'Opening https://github.com/knokbak/olli.gq/blob/main/index.html...';
                         }
                         case 'LICENSE': {
-                            window.open('https://olli.gq/LICENSE');
-                            return 'https://olli.gq/LICENSE';
+                            window.open('https://github.com/knokbak/olli.gq/blob/main/LICENSE');
+                            return 'Opening https://github.com/knokbak/olli.gq/blob/main/LICENSE...';
                         }
                         default: {
                             return 'cat: unknown file';

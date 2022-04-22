@@ -1,0 +1,27 @@
+body {
+  background: #000;
+  font-family: 'Fira Code', monospace;
+  color: #fff;
+  padding: 1px 4px;
+  cursor: default;
+}
+
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#body {
+}
+
+p {
+  margin: 0;
+}
+
+.hide {
+  display: none !important;
+}
+

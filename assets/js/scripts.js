@@ -8,18 +8,19 @@
     get('#overlay').classList.remove('hide');
     
     await type(newLine(),
-        'Welcome to olli.gq!\n' +
+        'Welcome to Jonfirexbox's Website!\n' +
         `This site is pretty much just a little bit of fun for me.\n\n` +
+        `This site is a fork of [Olli's Website](https://github.com/knokbak/olli.gq), do \`copyright\` to see the copyright claim` +
                
         `Sadly, this site doesn't work on mobile. You're really missing out, ` +
         `so hop on PC to take a look!\n\n` +
         
-        `If we haven't met each other before, hi, I'm olli. I develop ` +
-        `cool things from time-to-time, and really like making weird ` +
-        `things like this site.\n\n` +
+        `It seems like we haven't met each other, Hello 👋, I'm Jon. I create discord bots ` +
+        `and i run a minecraft server!` +
+        `(The server is in the making!)\n\n` +
         
-        `You have ${messages.length} new message(s). Type \`messages\` ` +
-        `to view them.\n\n` +
+        `AI: "Hello, im Jon's AI, You have ${messages.length} new message(s). Type \`messages\` ` +
+        `to se your messages.\n\n` +
         
         `Type \`help\` for help.\n\n`,
     35);
@@ -85,8 +86,8 @@
                 }
                 case 'projects': {
                     let projects = [
-                        '  [Says @ says.lol]  A fun Discord bot that lets users play Simon Says games in their servers. Originally created for the YouTuber SoundDrout, but has now reaches over 9,000 communities globally.',
-                        '  [Aunto @ aunto.xyz]  A highly-advanced privacy-respecting Discord verification bot built to protect communities from even the most advanced raids, attacks and malicious users. Aunto isn\'t your ordinary bot, and implements multiple fraud and malicious bot detection systems (most of which are custom-built by me).',
+                        '  [Corrupt Bump]  A Discord bump bot that can bump your server to over 100 different servers!.',
+                        '  [Something soon!] SOON!',
                     ];
                     return `I currently work on ${projects.length} project(s):\n\n${projects.join('\n\n')}`;
                 }
@@ -136,21 +137,21 @@
                     switch (args[1]) {
                         case 'scripts.js':
                         case 'script.js': {
-                            window.open('https://github.com/knokbak/olli.gq/blob/main/assets/js/scripts.js');
-                            return 'Opening https://github.com/knokbak/olli.gq/blob/main/assets/js/scripts.js...';
+                            window.open('https://github.com/jonfirexbox/website/blob/main/assets/js/scripts.js');
+                            return 'Opening https://github.com/jonfirexbox/website/blob/main/assets/js/scripts.js...';
                         }
                         case 'styles.css':
                         case 'style.css': {
-                            window.open('https://github.com/knokbak/olli.gq/blob/main/assets/css/styles.css');
-                            return 'Opening https://github.com/knokbak/olli.gq/blob/main/assets/css/styles.css...';
+                            window.open('https://github.com/jonfirexbox/website/blob/main/assets/css/styles.css');
+                            return 'Opening https://github.com/jonfirexbox/website/blob/main/assets/css/styles.css...';
                         }
                         case 'index.html': {
-                            window.open('https://github.com/knokbak/olli.gq/blob/main/index.html');
-                            return 'Opening https://github.com/knokbak/olli.gq/blob/main/index.html...';
+                            window.open('https://github.com/jonfirexbox/website/blob/main/index.html');
+                            return 'Opening https://github.com/jonfirexbox/website/blob/main/index.html...';
                         }
                         case 'LICENSE': {
-                            window.open('https://github.com/knokbak/olli.gq/blob/main/LICENSE');
-                            return 'Opening https://github.com/knokbak/olli.gq/blob/main/LICENSE...';
+                            window.open('https://github.com/jonfirexbox/website/blob/main/LICENSE');
+                            return 'Opening https://github.com/jonfirexbox/website/blob/main/LICENSE...';
                         }
                         default: {
                             return 'cat: unknown file';
@@ -176,13 +177,13 @@
                         return 'Execution failed: access denied';
                     }
                     let files = [
-                        '/var/www/olli.gq/index.html',
-                        '/var/www/olli.gq/assets/css/styles.css',
-                        '/var/www/olli.gq/assets/css/',
-                        '/var/www/olli.gq/assets/js/scripts.js',
-                        '/var/www/olli.gq/assets/js/',
-                        '/var/www/olli.gq/assets/',
-                        '/var/www/olli.gq/',
+                        '/var/www/website/index.html',
+                        '/var/www/website/assets/css/styles.css',
+                        '/var/www/website/assets/css/',
+                        '/var/www/website/assets/js/scripts.js',
+                        '/var/www/website/assets/js/',
+                        '/var/www/website/assets/',
+                        '/var/www/website/',
                         '/var/www/',
                         '/var/',
                         '/etc/nginx/sites-available/default',
